@@ -1,0 +1,36 @@
+{
+  "name": "celloui",
+  "version": "1.0.0",
+  "description": "a lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CooperHash/celloui.git"
+  },
+  "author": "cooper.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CooperHash/celloui/issues"
+  },
+  "homepage": "https://github.com/CooperHash/celloui#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@storybook/addon-actions": "^6.5.15",
+    "@storybook/addon-essentials": "^6.5.15",
+    "@storybook/addon-interactions": "^6.5.15",
+    "@storybook/addon-links": "^6.5.15",
+    "@storybook/builder-webpack4": "^6.5.15",
+    "@storybook/manager-webpack4": "^6.5.15",
+    "@storybook/react": "^6.5.15",
+    "@storybook/testing-library": "^0.0.13",
+    "babel-loader": "^8.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {}
+}
